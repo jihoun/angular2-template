@@ -3,6 +3,7 @@
     "files.exclude": {
         "**/*.js": {
             "when": "$(basename).ts" //hides js files when ts exist
-        }
+        },
+        "app/**/*.js.map": true //hide .map files
     }
 }
